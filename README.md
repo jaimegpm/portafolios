@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Inspirado en https://www.youtube.com/watch?v=V49fGLgM4WE&list=PL4FL-XepWXtsSXCijZOvvOI8DhB2951sC&index=5 
 
 Práctica 1 UT2 
@@ -21,3 +22,6 @@ Contexto:
 
 7. Publicar en github pages o en netlify.
 
+=======
+# portafolios
+>>>>>>> eadc443fd1feb3e736b6001c2ce22125ea3c25b9
