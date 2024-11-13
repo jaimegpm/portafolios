@@ -1,6 +1,7 @@
 # Portfolio 
 
 Proyecto de Portfolio personal para mí (Jaime García-Page) 
+He dejado una descarga directa en [releases](https://github.com/jaimegpm/portafolios/releases/tag/v1.0)
 
 ## Descripción de las Secciones
 
