@@ -1,27 +1,38 @@
-<<<<<<< HEAD
-Inspirado en https://www.youtube.com/watch?v=V49fGLgM4WE&list=PL4FL-XepWXtsSXCijZOvvOI8DhB2951sC&index=5 
+# Portfolio 
 
-Práctica 1 UT2 
+Proyecto de Portfolio personal para mí (Jaime García-Page) 
 
+## Descripción de las Secciones
 
-Terminar el porfolio de con la gúia del vídeo.
+- **Inicio**: Introducción al portafolio con el nombre y título profesional del desarrollador, enlaces a redes sociales y botones de acción.
+- **Sobre Mí**: Información sobre la experiencia y habilidades de Jaime como desarrollador frontend.
+- **Servicios**: Descripción de los servicios ofrecidos, como desarrollo web, diseño gráfico y aplicaciones móviles.
+- **Línea de Tiempo**: Línea de tiempo interactiva que muestra la trayectoria profesional y eventos clave de cada año.
+- **Portafolio**: Galería visual de proyectos destacados realizados por Jaime.
+- **Contacto**: Formulario para que los usuarios puedan ponerse en contacto directamente.
 
-Contexto:
+## Estructura del Proyecto
 
-1. Se tiene un primer código el cual debe ser revisado y observado, el cual se clona de este repositporio.
+El proyecto se compone de los siguientes archivos principales:
 
-2. Se debe concluír los pasos que hagan falta del vídeo.
+- `index.html`: Estructura principal de la página web.
+- `style.css`: Estilos CSS para el diseño y la presentación visual.
+- `script.js`: Archivo de JavaScript para funcionalidad interactiva.
 
-3. Registrar al menos 4 ejemplos del código dónde se utilice flexbox.En la section services se usa un display grid especial para hacer responsive las tarjetas(profundice en él y consulte la explicación)
+## Funcionalidades
 
-4. Usar correctamente las variables definidas en la psudoclase :root
+- **Diseño Responsivo**: Optimizado para dispositivos de escritorio y móviles.
+- **Tema Oscuro**: Opción de cambio de tema a través de un ícono en la interfaz.
+- **Paleta de Colores Personalizable**: Selector de color para cambiar el color principal del sitio.
+- **Animaciones**: Efectos visuales para una experiencia de usuario atractiva.
 
-5. LLenar con datos reales de vuestro CV.
+## Cómo Ejecutar el Proyecto
 
-6. Crear un repositorio sobre el proyecto, crear una rama llamada develpment y trabajar sobre esta, cuando se culminen los commits y el proyecto hacer merge a main.(observación: debe borrar el directorio .git para crear el repositorio personal)
+```bash
+# Clona este repositorio
+git clone https://github.com/tu_usuario/portfolio-jaime.git
 
-7. Publicar en github pages o en netlify.
+# Navega a la carpeta del proyecto
+cd portfolio-jaime
 
-=======
-# portafolios
->>>>>>> eadc443fd1feb3e736b6001c2ce22125ea3c25b9
+# Abre el archivo index.html en tu navegador para ver el portafolio en acción.
