@@ -31,9 +31,9 @@ El proyecto se compone de los siguientes archivos principales:
 
 ```bash
 # Clona este repositorio
-git clone https://github.com/tu_usuario/portfolio-jaime.git
+git clone https://github.com/tu_usuario/portafolios.git
 
 # Navega a la carpeta del proyecto
-cd portfolio-jaime
+cd portafolios
 
 # Abre el archivo index.html en tu navegador para ver el portafolio en acción.
