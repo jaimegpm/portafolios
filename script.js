@@ -1,6 +1,3 @@
-
-// Controlador de la barra de progreso
-
 document.addEventListener("DOMContentLoaded", function () {
     const moonIcon = document.getElementById("moonIcon");
     const sunIcon = document.getElementById("sunIcon");
@@ -12,18 +9,17 @@ document.addEventListener("DOMContentLoaded", function () {
     function applyDarkMode() {
         document.documentElement.style.setProperty('--bg-color-black', '#000000');
         document.documentElement.style.setProperty('--text-color-white', '#ffffff');
-        moonIcon.style.display = 'none';  // Oculta la luna
-        sunIcon.style.display = 'block';  // Muestra el sol
+        moonIcon.style.display = 'none';
+        sunIcon.style.display = 'block';
     }
 
     function applyLightMode() {
         document.documentElement.style.setProperty('--bg-color-black', '#ffffff');
         document.documentElement.style.setProperty('--text-color-white', '#000000');
-        moonIcon.style.display = 'block';  // Muestra la luna
-        sunIcon.style.display = 'none';  // Oculta el sol
+        moonIcon.style.display = 'block';
+        sunIcon.style.display = 'none';
     }
 
-    // Cambiar entre modos de tema
     moonIcon.addEventListener("click", function () {
         if (isDarkMode) {
             applyLightMode();
@@ -42,32 +38,20 @@ document.addEventListener("DOMContentLoaded", function () {
         isDarkMode = !isDarkMode;
     });
 
-    // Cambiar el color de los íconos usando el color picker
     colorPicker.addEventListener("input", function () {
         const selectedColor = this.value;
         document.documentElement.style.setProperty('--main-color', selectedColor);
-        sunIcon.setAttribute("fill", selectedColor);  // Aplica el color al ícono del sol
-        moonIcon.setAttribute("fill", selectedColor);  // Aplica el color al ícono de la luna
-        paletteIcon.setAttribute("fill", selectedColor);  // Aplica el color al ícono de la paleta
+        sunIcon.setAttribute("fill", selectedColor);
+        moonIcon.setAttribute("fill", selectedColor);
+        paletteIcon.setAttribute("fill", selectedColor);
     });
 
-    // Aplicar el modo oscuro por defecto
     applyDarkMode();
 });
-
-
-
-
-// theme control ends here
-
-
-
-// Controlador de la barra de progreso
 
 document.addEventListener("DOMContentLoaded", function () {
     const timelineEvents = document.querySelectorAll('.timeline li');
 
-    // Función de observación usando IntersectionObserver
     let observer = new IntersectionObserver((entries) => {
         entries.forEach(entry => {
             if (entry.isIntersecting) {
@@ -77,10 +61,9 @@ document.addEventListener("DOMContentLoaded", function () {
             }
         });
     }, {
-        threshold: 0.6 // 10% del elemento debe estar visible para ser activado
+        threshold: 0.6
     });
 
-    // Observar cada evento de la timeline
     timelineEvents.forEach(event => {
         observer.observe(event);
     });
@@ -92,5 +75,4 @@ const navbar = document.querySelector('.navbar');
 menuIcon.addEventListener('click', () => {
     menuIcon.classList.toggle('bx-x');
     navbar.classList.toggle('active');
-})
-/**************************************************************/
+});
